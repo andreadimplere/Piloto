@@ -1,0 +1,78 @@
+/* 1. Brand Background Color
+-------------------------------------------------------------------------- */
+.social-icons ul li a:hover i.fa-facebook:last-child { color: #ffffff !important; background-color: #3d5e99 !important; }
+.social-icons ul li a:hover i.fa-behance:last-child { color: #ffffff !important; background-color: #1769ff !important; }
+.social-icons ul li a:hover i.fa-bitcoin:last-child { color: #ffffff !important; background-color: #f7931a !important; }
+.social-icons ul li a:hover i.fa-dribbble:last-child { color: #ffffff !important; background-color: #ea4c89 !important; }
+.social-icons ul li a:hover i.fa-flickr:last-child { color: #ffffff !important; background-color: #ff0084 !important; }
+.social-icons ul li a:hover i.fa-git:last-child { color: #ffffff !important; background-color: #333333 !important; }
+.social-icons ul li a:hover i.fa-google-plus:last-child {color: #ffffff !important; background-color: #d73d32 !important; }
+.social-icons ul li a:hover i.fa-html5:last-child { color: #ffffff !important; background-color: #e34c26 !important; }
+.social-icons ul li a:hover i.fa-jsfiddle:last-child { color: #ffffff !important; background-color: #4679bd !important; }
+.social-icons ul li a:hover i.fa-linkedin:last-child { color: #ffffff !important; background-color: #007bb6 !important; }
+.social-icons ul li a:hover i.fa-meanpath:last-child { color: #ffffff !important; background-color: #2e2e2e !important; }
+.social-icons ul li a:hover i.fa-paypal:last-child { color: #ffffff !important; background-color: #0079ad !important; }
+.social-icons ul li a:hover i.fa-pinterest:last-child { color: #ffffff !important; background-color: #e3262e !important; }
+.social-icons ul li a:hover i.fa-rebel:last-child { color: #ffffff !important; background-color: #ee762a !important; }
+.social-icons ul li a:hover i.fa-sellsy:last-child { color: #ffffff !important; background-color: #4386d4 !important; }
+.social-icons ul li a:hover i.fa-simplybuilt:last-child {color: #ffffff !important; background-color: #0098FF !important; }
+.social-icons ul li a:hover i.fa-rss:last-child { color: #ffffff !important; background-color: #f6a832 !important; }
+.social-icons ul li a:hover i.fa-slideshare:last-child { color: #ffffff !important; background-color: #008ed2 !important; }
+.social-icons ul li a:hover i.fa-stackoverflow:last-child {color: #ffffff !important;background-color:#ff9900 !important; }
+.social-icons ul li a:hover i.fa-stumbleupon:last-child {color: #ffffff !important; background-color: #eb4924 !important; }
+.social-icons ul li a:hover i.fa-windows:last-child { color: #ffffff !important; background-color: #00bcf2 !important; }
+.social-icons ul li a:hover i.fa-yahoo:last-child { color: #ffffff !important; background-color: #2d1152 !important; }
+.social-icons ul li a:hover i.fa-android:last-child { color: #ffffff !important; background-color: #8bc349 !important; }
+.social-icons ul li a:hover i.fa-codepen:last-child { color: #ffffff !important; background-color: #222222 !important; }
+.social-icons ul li a:hover i.fa-delicious:last-child { color: #ffffff !important; background-color: #0b79e5 !important; }
+.social-icons ul li a:hover i.fa-dropbox:last-child { color: #ffffff !important; background-color: #2895f1 !important; }
+.social-icons ul li a:hover i.fa-forumbee:last-child { color: #ffffff !important; background-color: #83ad13 !important; }
+.social-icons ul li a:hover i.fa-googlewallet:last-child {color:#ffffff !important; background-color: #00a753 !important; }
+.social-icons ul li a:hover i.fa-instagram:last-child {color: #ffffff !important; background-color: #3f729b !important; }
+.social-icons ul li a:hover i.fa-lastfm:last-child { color: #ffffff !important; background-color: #e31b23 !important; }
+.social-icons ul li a:hover i.fa-medium:last-child { color: #ffffff !important; background-color: #333332 !important; }
+.social-icons ul li a:hover i.fa-reddit:last-child { color: #ffffff !important; background-color: #e75018 !important; }
+.social-icons ul li a:hover i.fa-skyatlas:last-child { color: #ffffff !important; background-color: #00adbb !important; }
+.social-icons ul li a:hover i.fa-soundcloud:last-child { color: #ffffff !important; background-color: #ff5500 !important; }
+.social-icons ul li a:hover i.fa-steam:last-child { color: #ffffff !important; background-color: #404040 !important; }
+.social-icons ul li a:hover i.fa-tencent-weibo:last-child {color:#ffffff !important;background-color: #73cff1 !important; }
+.social-icons ul li a:hover i.fa-twitch:last-child { color: #ffffff !important; background-color: #6441a5 !important; }
+.social-icons ul li a:hover i.fa-vimeo:last-child { color: #ffffff !important; background-color: #44bbff !important; }
+.social-icons ul li a:hover i.fa-vimeo-square:last-child { color: #ffffff !important; background-color: #44bbff !important; }
+.social-icons ul li a:hover i.fa-weibo:last-child { color: #ffffff !important; background-color: #eb7350 !important; }
+.social-icons ul li a:hover i.fa-wordpress:last-child { color: #ffffff !important; background-color: #1e8cbe !important; }
+.social-icons ul li a:hover i.fa-yelp:last-child { color: #ffffff !important; background-color: #af0606 !important; }
+.social-icons ul li a:hover i.fa-angellist:last-child { color: #ffffff !important; background-color: #000000 !important; }
+.social-icons ul li a:hover i.fa-bitbucket:last-child { color: #ffffff !important; background-color: #205081 !important; }
+.social-icons ul li a:hover i.fa-buysellads:last-child { color: #ffffff !important; background-color: #c90100 !important; }
+.social-icons ul li a:hover i.fa-connectdevelop:last-child {color:#ffffff !important;background-color:#391448 !important; }
+.social-icons ul li a:hover i.fa-deviantart:last-child { color: #ffffff !important; background-color: #3d4f42 !important; }
+.social-icons ul li a:hover i.fa-drupal:last-child { color: #ffffff !important; background-color: #5bc3ff !important; }
+.social-icons ul li a:hover i.fa-foursquare:last-child { color: #ffffff !important; background-color: #f44877 !important; }
+.social-icons ul li a:hover i.fa-gratipay:last-child { color: #ffffff !important; background-color: #663300 !important; }
+.social-icons ul li a:hover i.fa-ioxhost:last-child { color: #ffffff !important; background-color: #f76800 !important; }
+.social-icons ul li a:hover i.fa-linux:last-child { color: #ffffff !important; background-color: #e37407 !important; }
+.social-icons ul li a:hover i.fa-openid:last-child { color: #ffffff !important; background-color: #f78c40 !important; }
+.social-icons ul li a:hover i.fa-qq:last-child { color: #ffffff !important; background-color: #e8261f !important; }
+.social-icons ul li a:hover i.fa-skype:last-child { color: #ffffff !important; background-color: #00aff0 !important; }
+.social-icons ul li a:hover i.fa-spotify:last-child { color: #ffffff !important; background-color: #84bd00 !important; }
+.social-icons ul li a:hover i.fa-trello:last-child { color: #ffffff !important; background-color: #0078bd !important; }
+.social-icons ul li a:hover i.fa-twitter:last-child { color: #ffffff !important; background-color: #55acee !important; }
+.social-icons ul li a:hover i.fa-vine:last-child { color: #ffffff !important; background-color: #00bf8f !important; }
+.social-icons ul li a:hover i.fa-weixin:last-child { color: #ffffff !important; background-color: #e70012 !important; }
+.social-icons ul li a:hover i.fa-xing:last-child { color: #ffffff !important; background-color: #026466 !important; }
+.social-icons ul li a:hover i.fa-youtube-play:last-child {color:#ffffff !important; background-color: #cc181e !important; }
+.social-icons ul li a:hover i.fa-apple:last-child { color: #ffffff !important; background-color: #444444 !important; }
+.social-icons ul li a:hover i.fa-css3:last-child { color: #ffffff !important; background-color: #5eb7cb !important; }
+.social-icons ul li a:hover i.fa-digg:last-child { color: #ffffff !important; background-color: #222222 !important; }
+.social-icons ul li a:hover i.fa-hackernews:last-child { color: #ffffff !important; background-color: #ff6600 !important; }
+.social-icons ul li a:hover i.fa-joomla:last-child { color: #ffffff !important; background-color: #3d72a1 !important; }
+.social-icons ul li a:hover i.fa-leanpub:last-child { color: #ffffff !important; background-color: #323232 !important; }
+.social-icons ul li a:hover i.fa-maxcdn:last-child { color: #ffffff !important; background-color: #ff5b02 !important; }
+.social-icons ul li a:hover i.fa-pagelines:last-child { color: #ffffff !important; background-color: #000000 !important; }
+.social-icons ul li a:hover i.fa-reneren:last-child { color: #ffffff !important; background-color: #227dc5 !important; }
+.social-icons ul li a:hover i.fa-shirtsinbulk:last-child {color:#ffffff !important; background-color: #dd3a26 !important; }
+.social-icons ul li a:hover i.fa-stackexchange:last-child {color:#ffffff !important;background-color: #4ca3d7 !important; }
+.social-icons ul li a:hover i.fa-tumblr:last-child { color: #ffffff !important; background-color: #36465d !important; }
+.social-icons ul li a:hover i.fa-vk:last-child { color: #ffffff !important; background-color: #6383a8 !important; }
+.social-icons ul li a:hover i.fa-whatsapp:last-child { color: #ffffff !important; background-color: #64d448 !important; }

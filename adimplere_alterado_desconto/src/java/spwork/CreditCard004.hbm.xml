@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24/11/2015 18:59:24 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="spwork.CreditCard004" table="credit_card_004" catalog="test" optimistic-lock="version">
+        <id name="codInstc004" type="java.lang.Long">
+            <column name="cod_instc_004" />
+            <generator class="identity" />
+        </id>
+        <property name="codInstcClint004" type="java.lang.Long">
+            <column name="cod_instc_clint_004" />
+        </property>
+        <property name="codInstcUser004" type="java.lang.Long">
+            <column name="cod_instc_user_004" />
+        </property>
+        <property name="amountInCents004" type="string">
+            <column name="AmountInCents_004" length="100" />
+        </property>
+        <property name="authorizedAmountInCents004" type="string">
+            <column name="AuthorizedAmountInCents_004" length="100" />
+        </property>
+        <property name="capturedAmountInCents004" type="string">
+            <column name="CapturedAmountInCents_004" length="100" />
+        </property>
+        <property name="creditCardBrand004" type="string">
+            <column name="CreditCardBrand_004" length="100" />
+        </property>
+        <property name="refundedAmountInCents004" type="string">
+            <column name="RefundedAmountInCents_004" length="100" />
+        </property>
+        <property name="statusChangedDate004" type="string">
+            <column name="StatusChangedDate_004" length="100" />
+        </property>
+        <property name="transactionIdentifier004" type="string">
+            <column name="TransactionIdentifier_004" length="100" />
+        </property>
+        <property name="transactionKey004" type="string">
+            <column name="TransactionKey_004" length="100" />
+        </property>
+        <property name="transactionReference004" type="string">
+            <column name="TransactionReference_004" length="100" />
+        </property>
+        <property name="uniqueSequentialNumber004" type="string">
+            <column name="UniqueSequentialNumber_004" length="100" />
+        </property>
+        <property name="voidedAmountInCents004" type="string">
+            <column name="VoidedAmountInCents_004" length="100" />
+        </property>
+        <property name="previousCreditCardTransactionStatus004" type="string">
+            <column name="PreviousCreditCardTransactionStatus_004" length="100" />
+        </property>
+        <property name="creditCardTransactionStatus004" type="string">
+            <column name="CreditCardTransactionStatus_004" length="100" />
+        </property>
+        <property name="indSit004" type="java.lang.Integer">
+            <column name="ind_sit_004" />
+        </property>
+        <property name="datCdm004" type="timestamp">
+            <column name="dat_cdm_004" length="19" />
+        </property>
+        <property name="datUltAlt004" type="timestamp">
+            <column name="dat_ult_alt_004" length="19" />
+        </property>
+        <property name="usrCdm004" type="string">
+            <column name="usr_cdm_004" length="100" />
+        </property>
+        <property name="usrUltAlt004" type="string">
+            <column name="usr_ult_alt_004" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

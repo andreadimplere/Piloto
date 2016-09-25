@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24/11/2015 18:59:24 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="spwork.User002" table="user_002" catalog="test" optimistic-lock="version">
+        <id name="codInstc002" type="java.lang.Long">
+            <column name="cod_instc_002" />
+            <generator class="identity" />
+        </id>
+        <property name="codInstcClint002" type="java.lang.Long">
+            <column name="cod_instc_clint_002" />
+        </property>
+        <property name="name002" type="string">
+            <column name="name_002" length="1000" />
+        </property>
+        <property name="tel002" type="string">
+            <column name="tel_002" length="100" />
+        </property>
+        <property name="cpf002" type="string">
+            <column name="cpf_002" length="100" />
+        </property>
+        <property name="debt002" type="java.lang.Double">
+            <column name="debt_002" precision="22" scale="0" />
+        </property>
+        <property name="email002" type="string">
+            <column name="email_002" length="200" />
+        </property>
+        <property name="emailConf002" type="string">
+            <column name="email_conf_002" length="200" />
+        </property>
+        <property name="mes002" type="string">
+            <column name="mes_002" length="2" />
+        </property>
+        <property name="ano002" type="string">
+            <column name="ano_002" length="4" />
+        </property>
+        <property name="indSit002" type="java.lang.Integer">
+            <column name="ind_sit_002" />
+        </property>
+        <property name="prod002" type="string">
+            <column name="prod_002" length="200" />
+        </property>
+        <property name="subProd002" type="string">
+            <column name="sub_prod_002" length="200" />
+        </property>
+        <property name="datCdm002" type="timestamp">
+            <column name="dat_cdm_002" length="19" />
+        </property>
+        <property name="datUltAlt002" type="timestamp">
+            <column name="dat_ult_alt_002" length="19" />
+        </property>
+        <property name="usrCdm002" type="string">
+            <column name="usr_cdm_002" length="100" />
+        </property>
+        <property name="usrUltAlt002" type="string">
+            <column name="usr_ult_alt_002" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

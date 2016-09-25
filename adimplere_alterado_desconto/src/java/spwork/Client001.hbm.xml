@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24/11/2015 18:59:24 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="spwork.Client001" table="client_001" catalog="test" optimistic-lock="version">
+        <id name="codInstc001" type="java.lang.Long">
+            <column name="cod_instc_001" />
+            <generator class="identity" />
+        </id>
+        <property name="descAbvd001" type="string">
+            <column name="desc_abvd_001" length="100" />
+        </property>
+        <property name="desc001" type="string">
+            <column name="desc_001" length="1000" />
+        </property>
+        <property name="tel001" type="java.lang.Long">
+            <column name="tel_001" />
+        </property>
+        <property name="indSit001" type="java.lang.Integer">
+            <column name="ind_sit_001" />
+        </property>
+        <property name="juros001" type="java.lang.Double">
+            <column name="juros_001" />
+        </property>
+    </class>
+</hibernate-mapping>

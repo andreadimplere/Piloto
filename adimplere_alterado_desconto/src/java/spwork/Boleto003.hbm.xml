@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24/11/2015 18:59:24 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="spwork.Boleto003" table="boleto_003" catalog="test" optimistic-lock="version">
+        <id name="codInstc003" type="java.lang.Long">
+            <column name="cod_instc_003" />
+            <generator class="identity" />
+        </id>
+        <property name="codInstcClint003" type="java.lang.Long">
+            <column name="cod_instc_clint_003" />
+        </property>
+        <property name="amountInCents003" type="string">
+            <column name="AmountInCents_003" length="100" />
+        </property>
+        <property name="amountPaidInCents003" type="string">
+            <column name="AmountPaidInCents_003" length="100" />
+        </property>
+        <property name="boletoExpirationDate003" type="string">
+            <column name="BoletoExpirationDate_003" length="100" />
+        </property>
+        <property name="nossoNumero003" type="string">
+            <column name="NossoNumero_003" length="100" />
+        </property>
+        <property name="statusChandedDate003" type="string">
+            <column name="StatusChandedDate_003" length="100" />
+        </property>
+        <property name="transactionKey003" type="string">
+            <column name="TransactionKey_003" length="100" />
+        </property>
+        <property name="transactionReference003" type="string">
+            <column name="TransactionReference_003" length="100" />
+        </property>
+        <property name="previousBoletoTransactionStatus003" type="string">
+            <column name="PreviousBoletoTransactionStatus_003" length="100" />
+        </property>
+        <property name="boletoTransactionStatus003" type="string">
+            <column name="BoletoTransactionStatus_003" length="100" />
+        </property>
+        <property name="indSit003" type="java.lang.Integer">
+            <column name="ind_sit_003" />
+        </property>
+        <property name="codInstcUser003" type="java.lang.Long">
+            <column name="cod_instc_user_003" />
+        </property>
+        <property name="datCdm003" type="timestamp">
+            <column name="dat_cdm_003" length="19" />
+        </property>
+        <property name="datUltAlt003" type="timestamp">
+            <column name="dat_ult_alt_003" length="19" />
+        </property>
+        <property name="usrCdm003" type="string">
+            <column name="usr_cdm_003" length="100" />
+        </property>
+        <property name="usrUltAlt003" type="string">
+            <column name="usr_ult_alt_003" length="100" />
+        </property>
+         <property name="url003" type="string">
+            <column name="url_003" length="1000" />
+        </property>
+        <property name="codInstcBuy003" type="string">
+            <column name="cod_instc_buy_003" length="1000" />
+        </property>
+        <property name="datVnc003" type="java.util.Date">
+            <column name="dat_vnc_003" />
+        </property>
+    </class>
+</hibernate-mapping>
